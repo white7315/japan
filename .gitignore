@@ -1,0 +1,5 @@
+Git-2.44.0-64-bit.exe
+python-*-amd64.exe
+*.pyc
+__pycache__/
+install.log
