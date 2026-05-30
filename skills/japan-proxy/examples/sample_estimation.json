@@ -1,0 +1,22 @@
+{
+  "input": {
+    "url": "https://jp.mercari.com/item/m123456789",
+    "product_name": "Nintendo Switch Pro Controller (Used)",
+    "price_jpy": 6500,
+    "local_shipping": "free",
+    "weight_kg": 0.4
+  },
+  "estimation_result": {
+    "product_price_jpy": 6500,
+    "local_shipping_jpy": 0,
+    "proxy_fee_jpy": 0,
+    "exchange_rate_used": 910.0,
+    "japan_total_jpy": 6500,
+    "japan_total_krw": 59150,
+    "weight_kg": 0.4,
+    "international_shipping_krw": 8500,
+    "is_taxable": false,
+    "tax_duty_krw": 0,
+    "total_krw": 67650
+  }
+}
