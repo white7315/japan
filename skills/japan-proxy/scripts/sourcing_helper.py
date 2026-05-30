@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 # 데이터베이스 경로 설정
-DB_PATH = r"E:\japan-proxy-shopping\proxy_shopping.db"
+DB_PATH = r"E:\japan\proxy_shopping.db"
 
 def calculate_estimated_krw(price_jpy, exchange_rate=9.1, shipping_krw=8500):
     # 5000엔 이상 수수료 면제, 미만 300엔

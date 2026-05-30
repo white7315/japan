@@ -23,7 +23,7 @@ def get_gdrive_service():
             if not os.path.exists('credentials.json'):
                 raise FileNotFoundError(
                     "프로젝트 루트 디렉토리에 'credentials.json' 파일이 없습니다. "
-                    "구글 클라우드 콘솔에서 다운로드하여 E:\\japan-proxy-shopping\\credentials.json 경로에 넣어주세요."
+                    "구글 클라우드 콘솔에서 다운로드하여 E:\\japan\\credentials.json 경로에 넣어주세요."
                 )
             flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
             # 로컬 웹서버를 띄워 인증 처리 (웹 브라우저가 열림)
@@ -97,5 +97,5 @@ def upload_sourced_images():
 
 if __name__ == "__main__":
     # 실행 시 프로젝트 루트 디렉토리를 작업 경로로 고정
-    os.chdir(r"E:\japan-proxy-shopping")
+    os.chdir(r"E:\japan")
     upload_sourced_images()

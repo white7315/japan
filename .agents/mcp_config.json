@@ -14,7 +14,7 @@
         "-y",
         "@modelcontextprotocol/server-sqlite",
         "--db",
-        "E:/japan-proxy-shopping/proxy_shopping.db"
+        "E:/japan/proxy_shopping.db"
       ],
       "env": {}
     }
